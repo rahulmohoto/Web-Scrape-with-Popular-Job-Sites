@@ -27,3 +27,5 @@ After scraping, the attributes are stored on google spreadsheets.
 3.   *To have the spreadsheets API.json file, you have to create a project on google developers console and select which product you want to use. Like I used spreadsheets. Follow their docs.*
 
 ### All the python files include necessary comments(e.g where to paste the url, where to paste the directory of the credentials.json file for google sheets api). Follow accordingly.
+
+# *Each time a python script is executed, it fetches the spreadsheets instance and appends it. So again using that script will not make changes to the earlier data. Have to clean it manually or download it as excel before running that script again.*
